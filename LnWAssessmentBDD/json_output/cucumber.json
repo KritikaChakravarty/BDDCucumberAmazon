@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 472744194,
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Users/kritikachakravarty/eclipse-workspace/Kritika/LnWAssessmentBDD/Users\\kritikachakravarty\\Downloads\\chromediver\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat stepDefinitions.LoginStepDefinition.user_is_on_amazonpage(LoginStepDefinition.java:23)\n\tat ✽.Given user is on amazonpage(/Users/kritikachakravarty/eclipse-workspace/Kritika/LnWAssessmentBDD/src/main/java/Features/Login.feature:5)\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user is on amazonpage",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_amazonpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "title of login page is amazon",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_amazon()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "/Users/kritikachakravarty/eclipse-workspace/Kritika/LnWAssessmentBDD/src/main/java/Features/Login.feature"
+  }
+]
